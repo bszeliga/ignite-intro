@@ -1,0 +1,11 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.0.RELEASE'
+}
+
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.apache.ignite:ignite-core:2.6.0'
+}
